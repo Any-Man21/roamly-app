@@ -1,0 +1,73 @@
+{
+  "id": "0791aa7b-cf58-47fc-a66e-c68651e8bd94",
+  "title": "is auto complete enabled?",
+  "model": "",
+  "mode": "agent",
+  "tool_use": "agent",
+  "messages": [
+    {
+      "message_id": "739a03a1-7cae-4612-a273-a72f8676cb3d",
+      "role": "user",
+      "content": "is auto complete enabled?\n",
+      "checkpoints": [
+        {
+          "workspace_folder": "D:\\Programming Hero\\Travel-app\\roamly",
+          "commit_hash": "4024f667fb375f2bc752253a9121a86c56bad1ce"
+        }
+      ]
+    },
+    {
+      "message_id": "bba0fe11-6cad-466b-b14c-5c745027cbe5",
+      "role": "error",
+      "content": "Model '' not found. Server has the following models: [\"groq/allam-2-7b\"]",
+      "error_info": {
+        "category": "ModelUnavailable",
+        "title": "Model unavailable",
+        "explanation": "The requested model was not found, is unavailable, or is not supported by the provider route.",
+        "suggested_action": "switch_model",
+        "is_retryable": false,
+        "raw_error": "Model '' not found. Server has the following models: [\"groq/allam-2-7b\"]"
+      },
+      "_ui_only": true
+    },
+    {
+      "message_id": "2a46ae2a-e767-43f9-9da2-b2962043a6b9",
+      "role": "user",
+      "content": "hello\n",
+      "checkpoints": [
+        {
+          "workspace_folder": "D:\\Programming Hero\\Travel-app\\roamly",
+          "commit_hash": "a19de55a042c9e4fc43ce61ae585c5527626ff8b"
+        }
+      ]
+    },
+    {
+      "message_id": "bcd08e6e-6a27-4f3a-a603-7add5cbe426c",
+      "role": "error",
+      "content": "Model '' not found. Server has the following models: [\"groq/allam-2-7b\"]",
+      "error_info": {
+        "category": "ModelUnavailable",
+        "title": "Model unavailable",
+        "explanation": "The requested model was not found, is unavailable, or is not supported by the provider route.",
+        "suggested_action": "switch_model",
+        "is_retryable": false,
+        "raw_error": "Model '' not found. Server has the following models: [\"groq/allam-2-7b\"]"
+      },
+      "_ui_only": true
+    }
+  ],
+  "created_at": "2026-10-22T15:09:18.166851500+00:00",
+  "boost_reasoning": false,
+  "checkpoints_enabled": true,
+  "context_tokens_cap": null,
+  "auto_compression_cap": null,
+  "auto_compression_cap_pending": true,
+  "include_project_info": true,
+  "isTitleGenerated": true,
+  "auto_approve_editing_tools": true,
+  "auto_approve_dangerous_commands": false,
+  "autonomous_no_confirm": false,
+  "auto_enrichment_enabled": false,
+  "root_chat_id": "0791aa7b-cf58-47fc-a66e-c68651e8bd94",
+  "updated_at": "2026-10-22T15:09:45.039168800+00:00"
+}
